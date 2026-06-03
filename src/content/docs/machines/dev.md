@@ -1,4 +1,7 @@
-# Dev
+---
+title: "Dev"
+---
+
 
 ## Enumeration <a href="#ennumeration" id="ennumeration"></a>
 
@@ -189,7 +192,7 @@ http://192.168.51.169/boltwire/index.php?p=action.search&action=../../../../../.
 
 Need to [register with a normal user first](http://10.0.2.8:8080/dev/index.php?p=action.register)
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image-3-1.png>)
 
 This find with the id\_rsa found before can be an indication
 

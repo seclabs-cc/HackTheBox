@@ -1,4 +1,7 @@
-# Butler
+---
+title: "Butler"
+---
+
 
 ## Ennumeration <a href="#ennumeration" id="ennumeration"></a>
 
@@ -131,7 +134,7 @@ winpeas.exe
    =================================================================================================
 ```
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-3-2.png)
 
 With that, we can put an executable in this path, and it will treat as part of the service
 

@@ -1,4 +1,7 @@
-# Blue
+---
+title: "Blue"
+---
+
 
 ## Enumeration
 
@@ -27,7 +30,7 @@ set RHOSTS $IP
 run
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-5.png)
 
 * Run eternal blue explit to root the machine
 
@@ -37,11 +40,11 @@ set RHOSTS $IP
 run
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-2.png)
 
 Can try to change the payload to meterpetrer with staged payload
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-2-1.png)
 
 ## Manual way
 

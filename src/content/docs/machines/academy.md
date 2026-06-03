@@ -1,4 +1,7 @@
-# Academy
+---
+title: "Academy"
+---
+
 
 ## Enumeration
 
@@ -259,7 +262,7 @@ Enter Password : student
 http://10.0.2.7/academy/my-profile.ph
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-1-1.png)
 
 * Search in google php reverse shell
 

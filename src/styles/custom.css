@@ -1,0 +1,40 @@
+/* Custom styles for 📦 Hack the Box */
+
+:root {
+	/* HackTheBox Green accents */
+	--sl-color-accent-low: hsl(90, 50%, 15%);
+	--sl-color-accent: hsl(90, 75%, 44%);
+	--sl-color-accent-high: hsl(90, 85%, 65%);
+
+	/* Text accent */
+	--sl-color-text-accent: var(--sl-color-accent-high);
+
+	/* Dark mode gray scale (deep charcoal/green black) */
+	--sl-color-black: hsl(90, 8%, 4%);
+	--sl-color-bg: hsl(90, 8%, 6%);
+	--sl-color-bg-nav: hsl(90, 8%, 8%);
+	--sl-color-bg-sidebar: hsl(90, 8%, 7%);
+	
+	/* Font family stack */
+	--sl-font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Light mode overrides */
+:root[data-theme='light'] {
+	--sl-color-accent-low: hsl(90, 70%, 90%);
+	--sl-color-accent: hsl(90, 75%, 35%);
+	--sl-color-accent-high: hsl(90, 85%, 22%);
+	
+	--sl-color-black: hsl(90, 8%, 98%);
+	--sl-color-bg: hsl(90, 8%, 96%);
+	--sl-color-bg-nav: hsl(90, 8%, 93%);
+	--sl-color-bg-sidebar: hsl(90, 8%, 94%);
+}
+
+/* Smooth transitions for links and interactive elements */
+a {
+	transition: color 0.2s ease-in-out;
+}
+a:hover {
+	color: var(--sl-color-accent-high);
+}

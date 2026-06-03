@@ -1,4 +1,7 @@
-# Precious
+---
+title: "Precious"
+---
+
 
 ## Enumeration
 
@@ -18,13 +21,13 @@ PORT      STATE    SERVICE
 
 ## HTTP server
 
-{% hint style="danger" %}
+:::danger
 To make the website work I had to add the IP into hosts file
 
 echo "10.129.80.85 precious.htb" >> /etc/hosts
-{% endhint %}
+:::
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-3.png)
 
 * Launch a self-hosted web server in the attacker machine to intercept and intercept the request with burp
 
@@ -36,11 +39,11 @@ python3 -m http.server 80
 
 Intercept traffic and send to repeater
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-4.png)
 
 With the repeater option we can identify interesting things in the response
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image-1.png)
 
 The most prominent is related to WKHTMLTOPDF, and with a quick google we can find several exploits to it, however, none of them worked.&#x20;
 
@@ -48,9 +51,9 @@ The most prominent is related to WKHTMLTOPDF, and with a quick google we can fin
 
 ### Other possible vulnerable services
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-{% hint style="danger" %}
+:::danger
 TO BE CONTINUED ....
-{% endhint %}
+:::
 
